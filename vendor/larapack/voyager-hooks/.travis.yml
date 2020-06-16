@@ -1,0 +1,31 @@
+language: php
+
+sudo: true
+
+php:
+  - 7.2
+  - 7.3
+  - 7.4
+  - nightly
+
+matrix:
+  fast_finish: true
+
+  allow_failures:
+    - php: 7.2
+    - php: nightly
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+services:
+  - sqlite
+
+before_script:
+  - composer install
+  - travis_retry composer self-update
+  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-dist
+
+script:
+  # - vendor/bin/phpunit

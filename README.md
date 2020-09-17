@@ -21,15 +21,15 @@ Projeto open-source em andamento, 100% em português, distribuído sob a licenç
 
 * **Credenciais** 
      Acesso de admin.
-     - login: admin@admin.com
+     - login: miniblog_admin@algoritmo9.site
      - senha: miniblog_admin
      
      Acesso de moderador.
-     - login: moderador@moderador.com
+     - login: miniblog_moderador@algoritmo9.site
      - senha: miniblog_moderador
      
      Acesso de usuári comum.
-     - login: usuario@usuario.com
+     - login: miniblog_usuario@algoritmo9.site
      - senha: miniblog_usuario
      
 * **Admin** 

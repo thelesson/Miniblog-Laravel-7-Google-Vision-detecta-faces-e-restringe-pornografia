@@ -13,8 +13,8 @@ Projeto open-source em andamento, 100% em português, distribuído sob a licenç
 ## Inicio 
 
 * Este repositório é indicado para usuários que estão iniciando no Laravel e podem ao analisar o código, identificar as redundancias nele contidas, criar novos métodos parametrizados afim de enxugar linhas inuteis, criar novas responsabilidades, criar langs para evitar textos diretos nas views, utilizar de maneira certa o blade para reduzir o numero de imports e views, etc.
-~~Na verdade eu fiquei com preguiça de refatorar o código, separar tudo bonitinho em controladores, criar views blade enxutas e eliminar repetições. Funcionar, funciona mas pode ficar mehor kkkk~~
-* Todo o site está habilitado para efetuar qualquer operação. Por favor, evite desconfigurar o site demo utilizando acesso superadmin para criar novos relacionamentos, cruds, tabelas, etc. Efetue as operações normais do site para criar postagens, páginas, crud de usuários, etc
+
+* Todo o site está habilitado para efetuar qualquer operação. Por favor, evite desconfigurar o site demo utilizando acesso superadmin para criar novos relacionamentos, cruds, tabelas. Efetue as operações normais do site para criar postagens, páginas, crud de usuários, etc
 * Por favor, evite excluir/ editar ou deletar qualquer um dos 3 usuários abaixo
 
 * [Acesse a demo do projeto aqui](https://miniblog.algoritmo9.space)
